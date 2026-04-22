@@ -3,31 +3,32 @@
 
 This repository serves two primary purposes:
 
-## Git & GitHub Practice
+1. Git & GitHub Practice
 A hands-on environment to learn and apply version control concepts including branching, commits, merging, pull requests, and collaboration workflows.
 
-## Data Engineering Toolkit Setup
+2. Data Engineering Toolkit Setup
 A foundational repository for building, organizing, and documenting essential tools, scripts, and workflows used in modern data engineering.
 
 This project is designed to evolve into a central hub for reusable data engineering components and best practices.
 
 ## Objectives
-Strengthen practical understanding of Git workflows
-Build a structured data engineering environment
-Document tools, pipelines, and processes clearly
-Create a reusable and scalable project base
+- Strengthen practical understanding of Git workflows
+- Build a structured data engineering environment
+- Document tools, pipelines, and processes clearly
+- Create a reusable and scalable project base
 
 ## Tools & Technologies
 
 This repository will incorporate:
-Python (data processing, scripting)
-SQL 
-PostgreSQL
-git
+- Python (data processing, scripting)
+- SQL 
+- PostgreSQL
+- git
 
 ## Code Examples
 Basic Extract Script
-`import pandas as pd
+```
+import pandas as pd
 
 def extract_from_csv(file_path: str) -> pd.DataFrame:
     try:
@@ -37,44 +38,37 @@ def extract_from_csv(file_path: str) -> pd.DataFrame:
     except Exception as e:
         print(f"Error extracting data: {e}")
         return pd.DataFrame()
+```
 
 
 ## Git Workflow
-# Create a new branch
-git checkout -b feature/data-cleaning
+1. Create a new branch
+`git checkout -b feature/data-cleaning`
 
-# Stage changes
-git add .
+2. Stage changes
+`git add .`
 
 # Commit changes
-git commit -m "Add data cleaning script"
+`git commit -m "Add data cleaning script"`
 
-# Push to GitHub
-git push origin feature/data-cleaning
+3. Push to GitHub
+`git push origin feature/data-cleaning`
 
 ## Contribution Guide
 
-Contributions are welcome as part of the learning process. How to Contribute
-Fork the repository
-
-Create a new branch:
-
-- git checkout -b feature/your-feature-name
-
-Make your changes
-
-Commit your work:
-
-- git commit -m "Describe your changes"
-
-Push your branch:
-
-- git push origin feature/your-feature-name
-
-Open a Pull Request
+Contributions are welcome as part of the learning process. How to Contribute;
+- Fork the repository
+- Create a new branch:
+  `git checkout -b feature/your-feature-name`
+- Make your changes
+- Commit your work:
+`git commit -m "Describe your changes"`
+- Push your branch:
+`git push origin feature/your-feature-name`
+- Open a Pull Request
 
 ## Contribution Guidelines
-Write clear and meaningful commit messages
-Keep code modular and reusable
-Add documentation for new features
-Follow consistent naming conventions
+- Write clear and meaningful commit messages
+- Keep code modular and reusable
+- Add documentation for new features
+- Follow consistent naming conventions
